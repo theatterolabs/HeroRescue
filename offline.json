@@ -57,7 +57,6 @@
       "images/slidestopleft-sheet0.png",
       "images/sound-sheet0.png",
       "images/sound-sheet1.png",
-      "images/spike-2daf629ba21c.png",
       "images/spike.png",
       "images/sprite2-sheet0.png",
       "images/sprite3-sheet0.png",
