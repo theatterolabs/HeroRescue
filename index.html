@@ -297,7 +297,6 @@ var footerAD = document.getElementById('gamescreen-footer');
 
 
 	function requestAds() {
-	footerAD.style.display = 'none';
 	mainContainer.src= './interstitial.html';
 	mainContainer.style.display = 'block';
 	
@@ -306,15 +305,13 @@ var footerAD = document.getElementById('gamescreen-footer');
 }
 
 function closeEmptyInterstitialAds() {
-	footerAD.style.display = 'block';
-	refreshfooterSlot();
+	
 	mainContainer.style.display = 'none';
 	mainContainer.src= 'about:blank';
 }
 	
 function closeAds() {
-		footerAD.style.display = 'block';
-		refreshfooterSlot();
+		
 		mainContainer.style.display = 'none';
 		mainContainer.src= 'about:blank';
 		mixpanel.track('Skip Ad', {
