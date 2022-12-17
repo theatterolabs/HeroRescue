@@ -5,7 +5,7 @@
       "sw.js",
       "data.js",
       "style.css",
-      "offline.js",
+      "offlineClient.js",
       "jquery-3.4.1.min.js",
       "images/addcoin-61045e37f5954.png",
       "images/addcoin.png",
